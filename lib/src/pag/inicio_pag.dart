@@ -58,9 +58,9 @@ class _InicioPagState extends State<InicioPag> {
         print('cual clic $index');
       },
       items: [
-        BottomNavigationBarItem(icon: Icon(Icons.map), title: Text('mapas')),
+        BottomNavigationBarItem(icon: Icon(Icons.map), label: 'mapas'),
         BottomNavigationBarItem(
-            icon: Icon(Icons.brightness_6), title: Text('Direcciones')),
+            icon: Icon(Icons.brightness_6), label:'Direcciones'),
       ],
     );
   }
